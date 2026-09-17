@@ -25,55 +25,6 @@ MACRO tt_um_ieee_LDO
         RECT 183.210 312.740 183.510 313.740 ;
     END
   END rst_n
-  PIN ua[0]
-    ANTENNADIFFAREA 559.200012 ;
-    PORT
-      LAYER TopMetal1 ;
-        RECT 190.165 0.000 191.915 2.000 ;
-    END
-  END ua[0]
-  PIN ua[1]
-    PORT
-      LAYER TopMetal1 ;
-        RECT 165.685 0.000 167.435 2.000 ;
-    END
-  END ua[1]
-  PIN ua[2]
-    PORT
-      LAYER TopMetal1 ;
-        RECT 141.205 0.000 142.955 2.000 ;
-    END
-  END ua[2]
-  PIN ua[3]
-    PORT
-      LAYER TopMetal1 ;
-        RECT 116.725 0.000 118.475 2.000 ;
-    END
-  END ua[3]
-  PIN ua[4]
-    PORT
-      LAYER TopMetal1 ;
-        RECT 92.245 0.000 93.995 2.000 ;
-    END
-  END ua[4]
-  PIN ua[5]
-    PORT
-      LAYER TopMetal1 ;
-        RECT 67.765 0.000 69.515 2.000 ;
-    END
-  END ua[5]
-  PIN ua[6]
-    PORT
-      LAYER TopMetal1 ;
-        RECT 43.285 0.000 45.035 2.000 ;
-    END
-  END ua[6]
-  PIN ua[7]
-    PORT
-      LAYER TopMetal1 ;
-        RECT 18.805 0.000 20.555 2.000 ;
-    END
-  END ua[7]
   PIN ui_in[0]
     PORT
       LAYER Metal4 ;
@@ -1372,7 +1323,7 @@ MACRO tt_um_ieee_LDO
         RECT 14.560 49.750 143.420 49.770 ;
         RECT 1.010 46.950 143.420 49.750 ;
         RECT 1.010 46.930 129.870 46.950 ;
-        RECT 190.130 0.050 192.190 106.590 ;
+        RECT 190.130 5.950 192.190 106.590 ;
       LAYER Metal2 ;
         RECT 1.885 174.040 2.495 174.740 ;
         RECT 51.025 173.750 51.635 173.790 ;
@@ -1619,7 +1570,6 @@ MACRO tt_um_ieee_LDO
         RECT 123.265 56.250 125.385 56.280 ;
         RECT 88.415 47.150 90.535 47.500 ;
         RECT 91.555 47.100 93.675 49.310 ;
-        RECT 190.785 1.860 191.395 2.560 ;
       LAYER Metal3 ;
         RECT 1.840 174.085 2.540 174.695 ;
         RECT 84.790 142.705 85.510 142.905 ;
@@ -1634,7 +1584,6 @@ MACRO tt_um_ieee_LDO
         RECT 59.890 58.900 61.580 94.870 ;
         RECT 59.870 57.690 69.100 58.900 ;
         RECT 1.710 47.675 2.410 48.285 ;
-        RECT 190.740 1.905 191.440 2.515 ;
       LAYER Metal4 ;
         RECT 1.885 174.040 2.495 174.740 ;
         RECT 7.035 141.850 7.645 142.550 ;
@@ -1643,7 +1592,6 @@ MACRO tt_um_ieee_LDO
         RECT 84.815 108.185 85.425 108.885 ;
         RECT 6.855 101.760 7.465 102.460 ;
         RECT 1.755 47.630 2.365 48.330 ;
-        RECT 190.785 1.860 191.395 2.560 ;
       LAYER Metal5 ;
         RECT 1.460 173.660 2.920 175.120 ;
         RECT 88.790 160.225 89.790 160.525 ;
@@ -1839,7 +1787,6 @@ MACRO tt_um_ieee_LDO
         RECT 127.790 107.725 128.790 108.025 ;
         RECT 6.430 101.380 7.890 102.840 ;
         RECT 1.330 47.250 2.790 48.710 ;
-        RECT 190.360 1.480 191.820 2.940 ;
       LAYER TopMetal1 ;
         RECT 88.470 159.425 90.110 160.525 ;
         RECT 96.270 159.425 97.910 160.525 ;
@@ -1965,9 +1912,6 @@ MACRO tt_um_ieee_LDO
         RECT 111.870 107.725 113.510 108.825 ;
         RECT 119.670 107.725 121.310 108.825 ;
         RECT 127.470 107.725 129.110 108.825 ;
-        RECT 190.040 2.000 192.140 3.260 ;
-        RECT 190.040 1.160 190.165 2.000 ;
-        RECT 191.915 1.160 192.140 2.000 ;
   END
 END tt_um_ieee_LDO
 END LIBRARY
