@@ -315,8 +315,7 @@ MACRO tt_um_ieee_LDO
     END
   END uo_out[7]
   PIN VDPWR
-    ANTENNAGATEAREA 12.000000 ;
-    ANTENNADIFFAREA 684.106567 ;
+    USE POWER ;
     PORT
       LAYER TopMetal1 ;
         RECT 1.000 5.000 3.400 308.000 ;
